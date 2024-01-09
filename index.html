@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mico Efraim Escosura</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamb-nav">
+      <div class="logo">M I C O</div>
+      <div class="hamb-menu">
+        <div class="hamb-icon" onclick="openMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="openMenu()">About</a></li>
+          <li><a href="#education" onclick="openMenu()">Education</a></li>
+          <li><a href="#skills" onclick="openMenu()">Skills</a></li>
+          <li><a href="#projects" onclick="openMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="openMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="pic-sect">
+        <img src="./assets/mico-pic.jpg" alt="Mico Efraim's Profile" />
+      </div>
+      <div class="text-sec">
+        <p class="p1-text-sect">Hello! I am</p>
+        <h1 class="title">M I C O</h1>
+        <p class="p2-text-sect">
+          “I believe we have some power who we love. It isn’t something that<br />
+          just happens to a person.” - Amy March, Little Women (2019)
+        </p>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>

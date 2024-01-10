@@ -40,7 +40,7 @@ nav {
 .nav-links {
   gap: 2rem;
   list-style: none;
-  font-size: 1rem;
+  font-size: 1.3rem;
 }
 
 a {
@@ -144,3 +144,107 @@ a:hover {
 }
 
 /*SECTIONS*/
+
+section {
+  padding-top: 4vh;
+  height: 96vh;
+  margin: 0 10rem;
+  box-sizing: border-box;
+  min-height: fit-content;
+}
+
+.section-container {
+  display: flex;
+}
+
+/*PROFILE*/
+#profile {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  height: 70vh;
+  margin-bottom: 5rem;
+}
+
+.pic-sect {
+  display: flex;
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: auto 0;
+  max-width: 100%;
+}
+
+.text-sec {
+  align-self: center;
+  text-align: center;
+}
+
+.text-sec p {
+  font-weight: 600;
+}
+
+.p1-text-sect {
+  margin-bottom: 1rem;
+}
+
+.p2-text-sect {
+  text-align: center;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+.title {
+  font-size: 6rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+/*BUTTONS*/
+
+.btn-ctn {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.btn {
+  font-weight: 600;
+  transition: all 300ms ease;
+  padding: 1rem;
+  width: 8rem;
+  border-radius: 2rem;
+}
+
+.btn-clr-2,
+.btn-clr-1 {
+  border: rgb(53, 53, 53) 0.1rem solid;
+}
+
+.btn-clr-1:hover,
+.btn-clr-2:hover {
+  cursor: pointer;
+}
+
+.btn-clr-1,
+.btn-clr-2:hover {
+  background: rgb(53, 53, 53);
+  color: white;
+}
+
+.btn-clr-1:hover {
+  background: blue;
+}
+
+.btn-clr-2 {
+  background: none;
+}
+
+.btn-clr-2:hover {
+  border: rgb(255, 255, 255) 0.1 rem solid;
+}
+
+.btn-ctn {
+  gap: 1rem;
+}

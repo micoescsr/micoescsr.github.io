@@ -1,6 +1,7 @@
 /*FONT IMPORT -- GOOGLE FONTS - ARVO*/
-@import url("https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap"); */
 
+@import url("https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 /*GENERAL*/
 * {
   margin: 0;
@@ -8,7 +9,9 @@
 }
 
 body {
-  font-family: "Arvo", serif;
+  /* font-family: "Arvo", serif; */
+  font-family: "Chivo", sans-serif;
+  background-color: rgb(240, 255, 255, 0.5);
 }
 
 html {
@@ -163,7 +166,8 @@ section {
   justify-content: center;
   gap: 7rem;
   height: 65vh;
-  margin-bottom: 5rem; /*ADDED*/
+  margin-bottom: 7rem; /*ADDED*/
+  margin-right: 11rem; /*ADDED*/
 }
 
 .pic-sect {
@@ -197,7 +201,7 @@ section {
 }
 
 .title {
-  font-size: 6rem;
+  font-size: 4rem;
   text-align: center;
   margin-bottom: 1rem;
 }
@@ -235,7 +239,7 @@ section {
 }
 
 .btn-clr-1:hover {
-  background: blue;
+  background: rgb(85, 85, 85);
 }
 
 .btn-clr-2 {
@@ -278,11 +282,12 @@ section {
 }
 
 .about-title-1 {
-  font-size: 1rem;
+  font-size: 1.5rem;
+  font-weight: 200;
 }
 
-.about-title-1 {
-  font-weight: 100;
+.about-title-ctn {
+  margin-top: 1rem;
 }
 
 .abt-dtls-text {
@@ -300,7 +305,7 @@ section {
 }
 
 .about-pic {
-  border-radius: 25rem;
+  border-radius: 10rem;
 }
 
 h3 {

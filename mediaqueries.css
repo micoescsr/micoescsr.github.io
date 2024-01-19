@@ -1,8 +1,164 @@
+@media screen and (max-width: 1400px) {
+  #profile {
+    height: 83vh;
+    margin-bottom: 6rem;
+  }
+  .abt-ctn {
+    flex-wrap: wrap;
+  }
+}
+/* @media screen and (max-width: 1080px) {
+  #profile {
+    height: 83vh;
+    margin-bottom: 6rem;
+  }
+  .abt-ctn {
+    flex-wrap: wrap;
+  }
+  section {
+    height: fit-content;
+    margin-bottom: auto;
+  }
+  #about {
+    width: fit-content;
+  }
+  #projects{
+
+  }
+}
+@media screen and (max-width: 900px) {
+  #profile {
+    height: 83vh;
+    margin-bottom: 6rem;
+  }
+  .abt-ctn {
+    flex-wrap: wrap;
+  }
+  section {
+    height: fit-content;
+    margin-bottom: auto;
+  }
+  #about {
+    margin: auto;
+    width: fit-content;
+  }
+  #project {
+    margin-top: 2rem;
+  }
+} */
+
 @media screen and (max-width: 700px) {
   #desktop-nav {
     display: none;
   }
   #hamb-nav {
     display: flex;
+  }
+  #experience,
+  .exp-dets-ctn {
+    margin-top: 2rem;
+  }
+  #profile,
+  .sect-ctn {
+    display: block;
+  }
+  section,
+  sect-ctn {
+    height: fit-content;
+  }
+  section {
+    margin: 0 5%;
+  }
+  .pict-sect-ctn {
+    width: 275px;
+    height: 275px;
+    margin: 0 auto 2rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #contact,
+  footer {
+    height: 40vh;
+  }
+  #profile {
+    height: auto;
+    margin-bottom: 2rem;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+  }
+  .text-sec {
+    width: 80%;
+    text-align: center;
+    font-size: 1rem;
+    margin: 1rem 6rem auto;
+    margin-top: 2rem;
+    box-sizing: border-box;
+  }
+  .sect-ctn {
+    flex-direction: column; /* Stack items vertically in the about section */
+    align-items: center;
+  }
+  .about-pic {
+    width: auto;
+    height: auto;
+    border-radius: 25%;
+    margin-bottom: 1rem;
+  }
+  .profile-hero {
+    width: auto;
+    height: auto;
+    border-radius: 25%;
+    margin-bottom: 1rem;
+  }
+  article {
+    font-size: 1rem;
+  }
+  footer nav {
+    height: fit-content;
+  }
+  .abt-ctn,
+  .cntct-info-upper-ctn,
+  .btn-ctn {
+    flex-wrap: wrap;
+  }
+  .cntct-info-ctn {
+    margin: 0;
+    flex-direction: row;
+  }
+  .cntct-info-ctn p,
+  .nav-links li a {
+    font-size: 1rem;
+  }
+  .sklls-sub-title {
+    font-size: 1.25rem;
+  }
+  .logo {
+    font-size: 1.5rem;
+  }
+  .nav-links {
+    flex-direction: row;
+    gap: 0.5rem;
+    text-align: center;
+  }
+  .pict-sect-ctn {
+    width: 100%;
+    height: auto;
+    justify-content: center;
+  }
+  .abt-dtls-ctn {
+    font-size: 1.25rem;
+  }
+  .title {
+    font-size: 2rem;
+  }
+  .txt-ctn {
+    text-align: justify;
+  }
+  .pict-sect {
+    width: 100%;
+    height: auto;
+    justify-content: center;
   }
 }

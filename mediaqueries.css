@@ -3,49 +3,16 @@
     height: 83vh;
     margin-bottom: 6rem;
   }
-  .abt-ctn {
-    flex-wrap: wrap;
-  }
 }
-/* @media screen and (max-width: 1080px) {
-  #profile {
-    height: 83vh;
-    margin-bottom: 6rem;
-  }
-  .abt-ctn {
-    flex-wrap: wrap;
-  }
-  section {
-    height: fit-content;
-    margin-bottom: auto;
-  }
-  #about {
-    width: fit-content;
-  }
-  #projects{
 
+@media screen and (max-width: 1200px) {
+  #desktop-nav {
+    display: none;
+  }
+  #hamb-nav {
+    display: flex;
   }
 }
-@media screen and (max-width: 900px) {
-  #profile {
-    height: 83vh;
-    margin-bottom: 6rem;
-  }
-  .abt-ctn {
-    flex-wrap: wrap;
-  }
-  section {
-    height: fit-content;
-    margin-bottom: auto;
-  }
-  #about {
-    margin: auto;
-    width: fit-content;
-  }
-  #project {
-    margin-top: 2rem;
-  }
-} */
 
 @media screen and (max-width: 700px) {
   #desktop-nav {

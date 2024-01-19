@@ -24,8 +24,8 @@ body::before {
   right: 0;
   bottom: 0;
   background: url("/assets/bg2.png") center/cover no-repeat;
-  opacity: 0.1; /* Set the opacity value between 0 (transparent) and 1 (fully opaque) */
-  z-index: -1; /* Send the pseudo-element to the background */
+  opacity: 0.1;
+  z-index: -1;
 }
 
 html {
@@ -137,7 +137,7 @@ a:hover {
 }
 
 .hamb-icon.open span:first-child {
-  transform: rotate(45deg) translate(10px, 5px);
+  transform: rotate(45deg) translate(5px, 5px);
 }
 
 .hamb-icon.open span:nth-child(2) {
@@ -145,7 +145,7 @@ a:hover {
 }
 
 .hamb-icon.open span:last-child {
-  transform: rotate(-45deg) translate(10px, 5px);
+  transform: rotate(-45deg) translate(5px, -5px);
 }
 
 .hamb-icon span:first-child {
@@ -180,8 +180,8 @@ section {
   justify-content: center;
   gap: 7rem;
   height: 65vh;
-  margin-bottom: 7rem; /*ADDED*/
-  margin-right: 11rem; /*ADDED*/
+  margin-bottom: 7rem;
+  margin-right: 11rem;
 }
 
 .pic-sect {
@@ -190,7 +190,7 @@ section {
   width: 400px;
   margin: auto 0;
   opacity: 0;
-  animation: fadeIN 1s ease-in-out forwards;
+  animation: fadeIN 1s ease-in-out forwards; /*ANIMATION FOR THE PICTURE*/
 }
 
 @keyframes fadeIN {
@@ -279,10 +279,14 @@ section {
   gap: 1rem;
 }
 
-/*ABOUT - NEEDS REVISION*/
+/*ABOUT - NEEDS REVISION - FIXED*/
 
 #about {
   position: relative;
+}
+
+.about-title-ctn {
+  margin-top: 1rem;
 }
 
 .sect-ctn {
@@ -309,6 +313,7 @@ section {
 .about-title-1 {
   font-size: 1.5rem;
   font-weight: 200;
+  margin-bottom: 6rem;
 }
 
 .about-title-ctn {
@@ -499,7 +504,7 @@ article.icon {
   margin-top: 5rem;
   padding: 0.5rem;
   flex-direction: row;
-  gap: 1.5rem;
+  gap: 1rem;
 }
 
 .cntct-info-ctn {
@@ -535,9 +540,9 @@ footer p {
   font-size: 4rem;
   text-align: center;
   margin-bottom: 1rem;
-  overflow: hidden; /* Hide overflowing characters */
-  white-space: nowrap; /* Prevent line breaks */
-  border-right: 0.15em solid black; /* Add a border for the cursor effect */
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 0.15em solid black;
   animation: typing 1s steps(10, end), blink-caret 0.75s step-end 1s forwards;
 }
 
